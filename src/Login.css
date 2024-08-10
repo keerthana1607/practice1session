@@ -1,0 +1,107 @@
+/* Container styling */
+.containerlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col-md-6 {
+    max-width: 600px;
+  }
+  
+  .card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btnlogin {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnlogin-primary {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+  }
+  
+  .btnlogin-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Red color for errors */
+    text-align: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem; /* Margin top */
+  }
+  
+  .btton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btton-secondary {
+    background-color: #6c757d; /* Grey background */
+    color: #fff; /* White text */
+  }
+  
+  .btton-secondary:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+  }
+  
+  

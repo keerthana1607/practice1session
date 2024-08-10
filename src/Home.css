@@ -1,0 +1,14 @@
+/* App.css or your specific CSS file */
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-item .bi {
+  color: #000;
+}
+
+.nav-item span {
+  color: #000;
+  font-weight: bold;
+}
